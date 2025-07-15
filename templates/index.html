@@ -66,7 +66,9 @@
     {% for sk in range(15) %}
       <p> {{sk}}</p>
     {% endfor %}
-    <a href="http://127.0.0.1:5000/manoPuslapis" class="btn">Get Started</a>
+    {{naudotojai}}
+    <a href={{url_for('vardai')}} class="btn">Get Started</a>
   </div>
 </body>
 </html>
+<!-- Komentaras -->
